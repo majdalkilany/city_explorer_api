@@ -28,11 +28,14 @@ const mytrailhandler = require('./trails')
 
 const myMoviehandler = require('./movie.js')
 
+const myMoviehandler = require('./y')
+
 
 app.get('/location', mylocationHandler);
 app.get('/weather', myweatherHandler);
 app.get('/trails',mytrailhandler)
 app.get('/weather', myMoviehandler);
+app.get('./yelp', myMoviehandler);
 
 
 
